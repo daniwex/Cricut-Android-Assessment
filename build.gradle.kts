@@ -12,6 +12,8 @@ plugins {
     alias(libs.plugins.hilt) apply false
     alias(libs.plugins.ksp) apply false
     alias(libs.plugins.detekt) apply false
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.23"
+
 }
 
 allprojects {
